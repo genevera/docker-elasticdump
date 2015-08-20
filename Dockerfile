@@ -7,6 +7,7 @@ RUN apt-add-repository ppa:chris-lea/node.js
 
 RUN apt-get update -qq && apt-get install -y nodejs
 
-RUN npm install -g elasticdump
+ENV ESDUMP_VERSION=0.14.3
+RUN npm install -g elasticdump@${ES_DUMP_VERSION}
 
 ENTRYPOINT ["/usr/bin/elasticdump"]
