@@ -3,7 +3,8 @@ docker-elasticdump
 
 Docker binary wrapper around [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump)
 
-This fork does not provide additional functionality but secure Docker image tags so that you know exactly the Elastcdump version you use.
+I have forked the sherzberg/docker-elasticdump because the repository on Docker Hub only provides the *latest* tag. I need to ensure the version of Elasticdump I am using.
+This fork does not provide additional functionality but secure Docker image tags so that you know exactly the Elasticdump version you use.
 
 Build Status
 ------------
