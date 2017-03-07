@@ -3,7 +3,7 @@ docker-elasticdump
 
 Docker binary wrapper around [elasticsearch-dump](https://github.com/taskrabbit/elasticsearch-dump)
 
-I have forked the sherzberg/docker-elasticdump because the repository on Docker Hub only provides the *latest* tag. I need to ensure the version of Elasticdump I am using.
+I have forked the cogniteev/docker-elasticdump because it is out of date. I need to ensure the version of Elasticdump I am using is more current.
 
 Build Status
 ------------
@@ -29,11 +29,6 @@ $ docker run -t genevera/docker-elasticdump --input=http://production.es.com:920
 
 See [here](https://github.com/taskrabbit/elasticsearch-dump#use) for more usage.
 
-TODO
-----
-
-- [x] Basic `elasticdump` commands
-- [ ] Enable optional container linking for input/output es nodes
 
 License
 -------
